@@ -13,7 +13,7 @@
         ///// <summary>
         ///// 关系型数据库
         ///// </summary>
-        //public static IRDBSStrategy RDBS
+        //public static IRDBSStrategy RDBS    
         //{
         //    get { return serviceProvider.GetService<IRDBSStrategy>(); }
         //}

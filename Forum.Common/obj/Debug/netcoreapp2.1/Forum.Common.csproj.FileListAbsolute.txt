@@ -17,3 +17,4 @@ E:\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.dll
 E:\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.pdb
 E:\Forum\Forum.Common\bin\Debug\netcoreapp2.1\Forum.Common.runtimeconfig.json
 E:\Forum\Forum.Common\bin\Debug\netcoreapp2.1\Forum.Common.runtimeconfig.dev.json
+E:\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.csprojAssemblyReference.cache
