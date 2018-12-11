@@ -1,0 +1,440 @@
+2018-12-11 23:22:02.7742|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.7742|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8317|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.7742|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.7742|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.7742|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8317|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.7742|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8317|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8317|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8317|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8317|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8448|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EB", Request id "0HLIVF5J110EB:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8448|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EC", Request id "0HLIVF5J110EC:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8448|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110ED", Request id "0HLIVF5J110ED:00000002": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8448|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EA", Request id "0HLIVF5J110EA:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8317|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EF", Request id "0HLIVF5J110EF:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.8317|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EE", Request id "0HLIVF5J110EE:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.9109|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.9109|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.9239|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110E9", Request id "0HLIVF5J110E9:00000003": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.9239|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.9429|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:02.9429|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EG", Request id "0HLIVF5J110EG:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0338|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0338|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0338|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EH", Request id "0HLIVF5J110EH:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0338|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0338|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0479|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EI", Request id "0HLIVF5J110EI:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0479|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0479|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0643|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0643|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0643|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EJ", Request id "0HLIVF5J110EJ:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0643|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EK", Request id "0HLIVF5J110EK:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0913|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0913|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.0943|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EL", Request id "0HLIVF5J110EL:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1330|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1330|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1330|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1330|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1330|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EO", Request id "0HLIVF5J110EO:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1330|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EN", Request id "0HLIVF5J110EN:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1507|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1507|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1507|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EM", Request id "0HLIVF5J110EM:00000002": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1576|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1576|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1576|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EP", Request id "0HLIVF5J110EP:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1576|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1576|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1739|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110EQ", Request id "0HLIVF5J110EQ:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1915|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1915|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.1915|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110ER", Request id "0HLIVF5J110ER:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.2078|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.2078|2|WARN|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. |url: |action:  |IP: |QueryString: 
+2018-12-11 23:22:03.2078|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLIVF5J110ES", Request id "0HLIVF5J110ES:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at Forum.Web.Middleware.ExceptionFilter.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 74
+   at Forum.Web.Middleware.ExceptionFilter.Invoke(HttpContext context) in E:\Forum\Forum.Web\Middleware\ExceptionFilter.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)|url: |action:  |IP: |QueryString: 

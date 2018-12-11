@@ -55,26 +55,26 @@ namespace Forum.Web
             });
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-            // .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
-            // {
-            //     o.LoginPath = new PathString("/Account/login");
-            // }).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, o =>
-            // {
-            //     JwtAuthConfigModel jwtConfig = new JwtAuthConfigModel();
-            //     o.TokenValidationParameters = new TokenValidationParameters
-            //     {
-            //         ValidIssuer = "FytSos",
-            //         ValidAudience = "wr",
-            //         IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtConfig.JWTSecretKey)),
-            //         RequireSignedTokens = true,
-            //         ValidateAudience = false,
-            //         ValidateIssuer = true,
-            //         ValidateIssuerSigningKey = true,
-            //         RequireExpirationTime = true,
-            //         ValidateLifetime = true
-            //     };
-            // });
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+             .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
+             {
+                 o.LoginPath = new PathString("/Account/login");
+             }).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, o =>
+             {
+                 JwtAuthConfigModel jwtConfig = new JwtAuthConfigModel();
+                 o.TokenValidationParameters = new TokenValidationParameters
+                 {
+                     ValidIssuer = "FytSos",
+                     ValidAudience = "wr",
+                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtConfig.JWTSecretKey)),
+                     RequireSignedTokens = true,
+                     ValidateAudience = false,
+                     ValidateIssuer = true,
+                     ValidateIssuerSigningKey = true,
+                     RequireExpirationTime = true,
+                     ValidateLifetime = true
+                 };
+             });
 
             services.AddAuthorization(options =>
             {
@@ -106,9 +106,9 @@ namespace Forum.Web
             //自定义异常处理
             app.UseMiddleware<ExceptionFilter>();
             //认证
-            //app.UseAuthentication();
+           app.UseAuthentication();
             //授权
-            //app.UseMiddleware<JwtAuthorizationFilter>();
+           app.UseMiddleware<JwtAuthorizationFilter>();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             //app.UseCookiePolicy();
