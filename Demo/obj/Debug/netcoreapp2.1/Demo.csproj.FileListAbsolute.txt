@@ -30,3 +30,4 @@ E:\Forum\Demo\obj\Debug\netcoreapp2.1\Demo.Views.pdb
 E:\Forum\Demo\obj\Debug\netcoreapp2.1\Demo.dll
 E:\Forum\Demo\obj\Debug\netcoreapp2.1\Demo.pdb
 E:\Forum\Demo\obj\Debug\netcoreapp2.1\Demo.csproj.CopyComplete
+E:\Forum\Demo\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
