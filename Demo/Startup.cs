@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Demo.Middleware;
 using Demo.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
@@ -11,6 +12,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace Demo
 {
@@ -38,7 +40,17 @@ namespace Demo
                    options.LoginPath = "/Account/login";
                    options.LogoutPath = "/Account/logout";
                });
+            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddTransient<IUserServices, BlogUserServices>();
+            services.AddTransient<IOnlineUsersService, OnlineUsersService>();
+            services.AddDistributedMemoryCache();
+
+            services.AddSession(options =>
+            {
+                // Set a short timeout for easy testing.
+                options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.Cookie.HttpOnly = true;
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -57,8 +69,12 @@ namespace Demo
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-           // app.UseCookiePolicy();
+            app.UseSession();
+            //自定义异常处理
+            app.UseMiddleware<ExceptionFilter>();
+            app.UseMiddleware<OnlineFilter>();
             app.UseAuthentication();
+            
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

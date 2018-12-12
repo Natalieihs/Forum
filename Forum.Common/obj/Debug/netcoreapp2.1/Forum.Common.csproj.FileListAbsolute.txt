@@ -18,3 +18,14 @@ E:\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.pdb
 E:\Forum\Forum.Common\bin\Debug\netcoreapp2.1\Forum.Common.runtimeconfig.json
 E:\Forum\Forum.Common\bin\Debug\netcoreapp2.1\Forum.Common.runtimeconfig.dev.json
 E:\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.csprojAssemblyReference.cache
+D:\开发目录\GIT项目\Forum\Forum.Common\bin\Debug\netcoreapp2.1\Forum.Common.deps.json
+D:\开发目录\GIT项目\Forum\Forum.Common\bin\Debug\netcoreapp2.1\Forum.Common.runtimeconfig.json
+D:\开发目录\GIT项目\Forum\Forum.Common\bin\Debug\netcoreapp2.1\Forum.Common.runtimeconfig.dev.json
+D:\开发目录\GIT项目\Forum\Forum.Common\bin\Debug\netcoreapp2.1\Forum.Common.dll
+D:\开发目录\GIT项目\Forum\Forum.Common\bin\Debug\netcoreapp2.1\Forum.Common.pdb
+D:\开发目录\GIT项目\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.csprojAssemblyReference.cache
+D:\开发目录\GIT项目\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.csproj.CoreCompileInputs.cache
+D:\开发目录\GIT项目\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.AssemblyInfoInputs.cache
+D:\开发目录\GIT项目\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.AssemblyInfo.cs
+D:\开发目录\GIT项目\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.dll
+D:\开发目录\GIT项目\Forum\Forum.Common\obj\Debug\netcoreapp2.1\Forum.Common.pdb

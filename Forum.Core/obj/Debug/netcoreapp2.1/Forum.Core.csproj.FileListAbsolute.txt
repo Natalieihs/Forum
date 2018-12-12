@@ -24,3 +24,17 @@ E:\Forum\Forum.Core\obj\Debug\netcoreapp2.1\Forum.Core.dll
 E:\Forum\Forum.Core\obj\Debug\netcoreapp2.1\Forum.Core.pdb
 E:\Forum\Forum.Core\bin\Debug\netcoreapp2.1\Forum.Common.dll
 E:\Forum\Forum.Core\bin\Debug\netcoreapp2.1\Forum.Common.pdb
+D:\开发目录\GIT项目\Forum\Forum.Core\bin\Debug\netcoreapp2.1\Forum.Core.deps.json
+D:\开发目录\GIT项目\Forum\Forum.Core\bin\Debug\netcoreapp2.1\Forum.Core.dll
+D:\开发目录\GIT项目\Forum\Forum.Core\bin\Debug\netcoreapp2.1\Forum.Core.pdb
+D:\开发目录\GIT项目\Forum\Forum.Core\bin\Debug\netcoreapp2.1\Forum.Common.dll
+D:\开发目录\GIT项目\Forum\Forum.Core\bin\Debug\netcoreapp2.1\Forum.Extensions.dll
+D:\开发目录\GIT项目\Forum\Forum.Core\bin\Debug\netcoreapp2.1\Forum.Extensions.pdb
+D:\开发目录\GIT项目\Forum\Forum.Core\bin\Debug\netcoreapp2.1\Forum.Common.pdb
+D:\开发目录\GIT项目\Forum\Forum.Core\obj\Debug\netcoreapp2.1\Forum.Core.csprojAssemblyReference.cache
+D:\开发目录\GIT项目\Forum\Forum.Core\obj\Debug\netcoreapp2.1\Forum.Core.csproj.CoreCompileInputs.cache
+D:\开发目录\GIT项目\Forum\Forum.Core\obj\Debug\netcoreapp2.1\Forum.Core.AssemblyInfoInputs.cache
+D:\开发目录\GIT项目\Forum\Forum.Core\obj\Debug\netcoreapp2.1\Forum.Core.AssemblyInfo.cs
+D:\开发目录\GIT项目\Forum\Forum.Core\obj\Debug\netcoreapp2.1\Forum.Core.csproj.CopyComplete
+D:\开发目录\GIT项目\Forum\Forum.Core\obj\Debug\netcoreapp2.1\Forum.Core.dll
+D:\开发目录\GIT项目\Forum\Forum.Core\obj\Debug\netcoreapp2.1\Forum.Core.pdb

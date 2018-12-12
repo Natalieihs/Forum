@@ -9,6 +9,8 @@ using Demo.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 
 namespace Demo.Controllers
 {
@@ -16,8 +18,10 @@ namespace Demo.Controllers
     public class AccountController : Controller
     {
         private readonly IUserServices _userServices;
-        public AccountController(IUserServices userServices)
+        private readonly IHttpContextAccessor _httpContext;
+        public AccountController(IUserServices userServices,IHttpContextAccessor httpContext)
         {
+            _httpContext = httpContext;
             _userServices = userServices;
         }
         [Route("/account/login")]
@@ -37,7 +41,10 @@ namespace Demo.Controllers
                 identity.AddClaim(new Claim(ClaimTypes.Name, model.UserName));
                 var principle = new ClaimsPrincipal(identity);
                 var properties = new AuthenticationProperties { IsPersistent = model.RememberMe };
+               
+                
                 await HttpContext.SignInAsync(principle, properties);
+                HttpContext.User = principle;
                 return LocalRedirect(returnUrl ?? "/");
             }
             ModelState.AddModelError(string.Empty, "Username or password is invalid.");

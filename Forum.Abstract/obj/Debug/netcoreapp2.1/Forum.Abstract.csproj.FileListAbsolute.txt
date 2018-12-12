@@ -16,3 +16,12 @@ E:\Forum\Forum.Abstract\obj\Debug\netcoreapp2.1\Forum.Abstract.AssemblyInfoInput
 E:\Forum\Forum.Abstract\obj\Debug\netcoreapp2.1\Forum.Abstract.AssemblyInfo.cs
 E:\Forum\Forum.Abstract\obj\Debug\netcoreapp2.1\Forum.Abstract.dll
 E:\Forum\Forum.Abstract\obj\Debug\netcoreapp2.1\Forum.Abstract.pdb
+D:\开发目录\GIT项目\Forum\Forum.Abstract\bin\Debug\netcoreapp2.1\Forum.Abstract.deps.json
+D:\开发目录\GIT项目\Forum\Forum.Abstract\bin\Debug\netcoreapp2.1\Forum.Abstract.dll
+D:\开发目录\GIT项目\Forum\Forum.Abstract\bin\Debug\netcoreapp2.1\Forum.Abstract.pdb
+D:\开发目录\GIT项目\Forum\Forum.Abstract\obj\Debug\netcoreapp2.1\Forum.Abstract.csprojAssemblyReference.cache
+D:\开发目录\GIT项目\Forum\Forum.Abstract\obj\Debug\netcoreapp2.1\Forum.Abstract.csproj.CoreCompileInputs.cache
+D:\开发目录\GIT项目\Forum\Forum.Abstract\obj\Debug\netcoreapp2.1\Forum.Abstract.AssemblyInfoInputs.cache
+D:\开发目录\GIT项目\Forum\Forum.Abstract\obj\Debug\netcoreapp2.1\Forum.Abstract.AssemblyInfo.cs
+D:\开发目录\GIT项目\Forum\Forum.Abstract\obj\Debug\netcoreapp2.1\Forum.Abstract.dll
+D:\开发目录\GIT项目\Forum\Forum.Abstract\obj\Debug\netcoreapp2.1\Forum.Abstract.pdb

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Demo.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 
 namespace Demo.Controllers
 {
@@ -14,6 +15,9 @@ namespace Demo.Controllers
     {
         public IActionResult Index()
         {
+            // throw new Exception("发生异常了");
+          //  HttpContext.Session.SetString("SessionStartedTime", "Session started time:" + DateTime.Now.ToString());
+            
             return View();
         }
 
